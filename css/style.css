@@ -1,0 +1,66 @@
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+body {
+    background-image: url('../image/img.png');
+    width: auto;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 35px;
+    text-decoration: blue ;
+    font-weight: bolder;
+  
+}
+
+.logo img{
+    width: 210px;
+}
+nav a{
+    font-weight: bold;
+    color: black;
+    padding-right: 25px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: lawngreen;
+    text-align: center;
+    font-style: italic;
+    font-size: 100px;
+}
+ul{
+    display: ruby-text;
+    text-align: center;
+
+    list-style: none;
+    font-size: 30px;
+    
+}
+marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    font-size: 50px;
+    color: red;
+    
+}
+h2{
+    font: size 40px ;
+    color:black);
+    margin: 264px;
+    margin-top: 100px;
+    text-align: justify;
+
+}
+nav a:hover{
+    font-family: sans-serif;
+    font-size: 25px;
+}
